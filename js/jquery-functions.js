@@ -351,12 +351,12 @@ $("document").ready(function () {
       ? setResult("Το ετήσιο ποσό στέγασης που δικαιούστε ανέρχεται στα 2.000 ευρώ, καθώς η μισθωμένη κατοικία ειναι εντός της Περιφέρειας Αττικής ή της Περιφερειακής Ενότητας Θεσσαλονίκης και συνυπάρχει συγκάτοικος που πληρεί τις προϋποθέσεις.")
       : setResult("The annual housing amount you are entitled to is this 2,000 euros.");
     }
-    if (allAnswers[4] === "2" && allAnswers[3] === "1") {
+    if (allAnswers[4] === "1" && allAnswers[3] === "2") {
       currentLanguage === "greek"
       ? setResult("Το ετήσιο ποσό στέγασης που δικαιούστε ανέρχεται στα 2.500 ευρώ, καθώς η μισθωμένη κατοικία δεν ειναι εντός της Περιφέρειας Αττικής ή της Περιφερειακής Ενότητας Θεσσαλονίκης αλλά συνυπάρχει συγκάτοικος που να πληρεί τις προϋποθέσεις.")
       : setResult("The annual housing amount you are entitled to is this 2,500 euros.");
     }
-    if (allAnswers[4] === "1" && allAnswers[3] === "2") {
+    if (allAnswers[4] === "2" && allAnswers[3] === "1") {
       currentLanguage === "greek"
       ? setResult("Το ετήσιο ποσό στέγασης που δικαιούστε ανέρχεται στα 2.000 ευρώ, καθώς η μισθωμένη κατοικία ειναι εντός της Περιφέρειας Αττικής ή της Περιφερειακής Ενότητας Θεσσαλονίκης και δεν συνυπάρχει συγκάτοικος που να πληρεί τις προϋποθέσεις.")
       : setResult("The annual housing amount you are entitled to is 2,000 euros.");
